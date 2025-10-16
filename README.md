@@ -110,7 +110,18 @@ The rapid expansion of the fashion industry and the growing variety of products 
 ## 📂 Datasets
 
 The datasets of the paper POG:
+```
 https://drive.google.com/drive/folders/1xFdx5xuNXHGsUVG2VIohFTXf9S7G5veq
+
+**Data Format**
+Outfit data
+outfit_id,item_id;item_id;item_id...
+
+User data
+user_id,outfit_id;outfit_id;...
+
+Item data
+item_id,cate_id,pic_url,title
 
 This project uses the **Fashion-MNIST** dataset, a widely-used benchmark dataset for clothing image classification.  
 
