@@ -129,16 +129,13 @@ item_id,cate_id,pic_url,title
 If you use the datasets or findings from our paper, please cite [our paper](https://ieeexplore.ieee.org/abstract/document/10533341) in your work:
 
 ```bibtex
-@INPROCEEDINGS{10533341,
-  author={Saed, Sajjad and Teimourpour, Babak and Kalashi, Kamand and Soltanshahi, Mohammad Ali},
-  booktitle={2024 10th International Conference on Web Research (ICWR)}, 
-  title={An Efficient Multiple Convolutional Neural Network Model (MCNN-14) for Fashion Image Classification}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={13-21},
-  keywords={Computational modeling;Clothing;Computer architecture;Search engines;Benchmark testing;Feature extraction;Computational efficiency;Deep Learning;Image Classification;Multiple Convolutional Neural Networks;Fashion-MNIST},
-  doi={10.1109/ICWR61162.2024.10533341}}
+@article{saed2025hybrid,
+  title={Hybrid-Hierarchical Fashion Graph Attention Network for Compatibility-Oriented and Personalized Outfit Recommendation},
+  author={Saed, Sajjad and Teimourpour, Babak},
+  journal={arXiv preprint arXiv:2508.11105},
+  year={2025},
+ doi={10.48550/arXiv.2508.11105}
+}
 ```
 
 ---
