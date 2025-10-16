@@ -110,9 +110,9 @@ The rapid expansion of the fashion industry and the growing variety of products 
 ## 📂 Datasets
 
 The datasets of the paper POG:
-```
-https://drive.google.com/drive/folders/1xFdx5xuNXHGsUVG2VIohFTXf9S7G5veq
 
+https://drive.google.com/drive/folders/1xFdx5xuNXHGsUVG2VIohFTXf9S7G5veq
+```
 **Data Format**
 Outfit data
 outfit_id,item_id;item_id;item_id...
@@ -122,18 +122,6 @@ user_id,outfit_id;outfit_id;...
 
 Item data
 item_id,cate_id,pic_url,title
-
-This project uses the **Fashion-MNIST** dataset, a widely-used benchmark dataset for clothing image classification.  
-
-- **Description:** Fashion-MNIST consists of **70,000 grayscale images** of fashion items across **10 categories**, with **28x28 pixel** resolution.  
-- **Train/Test Split:** 60,000 training images and 10,000 test images.  
-- **Source:** Directly available via **Keras datasets**, automatically downloaded when using:
-
-```python
-from tensorflow.keras.datasets import fashion_mnist
-(x_train, y_train), (x_test, y_test) = fashion_mnist.load_data()
-```
-
 ---
 
 ## 📚Citation
