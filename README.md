@@ -10,17 +10,12 @@
 
 This repository contains the implementation of **FGAT**, a Hybrid Hierarchical Fashion GAT model for Compatibility-Oriented and Personalized Outfit Recommendation proposed in our paper:
 > Saed, S., & Teimourpour, B. (2025). Hybrid-Hierarchical Fashion Graph Attention Network for Compatibility-Oriented and Personalized Outfit Recommendation (No. arXiv:2508.11105). arXiv. https://doi.org/10.48550/arXiv.2508.11105
-> 
-> (Saed & Teimourpour, 2025) [*“Hybrid-Hierarchical Fashion Graph Attention Network for Compatibility-Oriented and Personalized Outfit Recommendation.”*]([https://ieeexplore.ieee.org/abstract/document/10533341](https://doi.org/10.48550/arXiv.2508.1110)).
-> 
-> Saed et al. [*“An Efficient Multiple Convolutional Neural Network Model (MCNN-14) for Fashion Image Classification.”*](https://ieeexplore.ieee.org/abstract/document/10533341). ICWR2024
-
 ---
 
 ## 📌 Abstract
-The transformation of fashion through online platforms has spurred a need for high-quality clothing search engines, facilitating seamless product discovery for global consumers. However, this transition has brought forth challenges in categorization and description standards among retailers and search engines, stemming from the inherent complexity and variability of fashion items. To address these challenges, deep learning techniques like Multiple Convolutional Neural Networks (MCNNs) have gained prominence in the fashion industry. We propose **MCNN-14**, a novel multiple-CNN architecture that balances superior classification accuracy with computational efficiency.  
+The rapid expansion of the fashion industry and the growing variety of products have made it increasingly challenging for users to identify compatible items on e-commerce platforms. Effective fashion recommendation systems are therefore crucial for filtering irrelevant options and suggesting suitable ones. However, simultaneously addressing outfit compatibility and personalized recommendations remains a significant challenge, as these aspects are typically treated independently in existing studies, thereby overlooking the complex interactions between items and user preferences. This research introduces a new framework named FGAT, which leverages a hierarchical graph representation together with attention mechanisms to address this problem. The framework constructs a three-tier graph of users, outfits, and items, integrating visual and textual features to jointly model outfit compatibility and user preferences. By dynamically weighting node importance during representation propagation, the graph attention mechanism captures key interactions and produces precise embeddings for both user preferences and outfit compatibility. Evaluated on the POG dataset, FGAT outperforms strong baselines such as HFGN, achieving notable improvements in accuracy, precision, hit ratio (HR), recall, and NDCG. These results demonstrate that combining multimodal visual–textual features with a hierarchical graph structure and attention mechanisms significantly enhances the effectiveness and efficiency of personalized fashion recommendation systems.  
 
-> **✨ Key Contribution:** Our model achieved **93.08% accuracy** on the Fashion-MNIST dataset, surpassing existing benchmarks.
+> **✨ Key Contribution:** Our model achieved **0.4286 HR@10**,**0.1580 Recall@10**,**0.4424 Precision@10**,**0.1340 NDCG@10**,**89.56% accuracy** on the POG dataset, surpassing existing benchmarks.
 
 ---
 
@@ -53,36 +48,6 @@ The transformation of fashion through online platforms has spurred a need for hi
     <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat&logo=ResearchGate&logoColor=white">
   </a>
 </p>
-
-**Kamand Kalashi**  
- <p align="left">
-  <a href="https://www.linkedin.com/in/kamand-kalashi-0696b1199/" target="_blank">
-    <img src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=linkedin">
-  </a>  
-  <a href='https://scholar.google.com/citations?user=Rjiq7qUAAAAJ&hl=en' target="_blank">
-    <img alt='GoogleScholar' src='https://img.shields.io/badge/Scholar-100000?style=flat&logo=GoogleScholar&logoColor=white&color=0181FF'>
-  </a>
-  <a href="https://www.researchgate.net/profile/Kamand-Kalashi" target="_blank">
-    <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat&logo=ResearchGate&logoColor=white">
-  </a>
-    <a href="mailto:kalashi.kamand@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white">
-  </a>
-</p>
-
-**Dr.Mohamad Ali Soltanshahi**  
- <p align="left">
-  <a href="https://www.linkedin.com/in/ali-soltanshahi-61091472/" target="_blank">
-    <img src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=linkedin">
-  </a>  
-  <a href='https://scholar.google.com/citations?user=WEYVvrYAAAAJ&hl=en' target="_blank">
-    <img alt='GoogleScholar' src='https://img.shields.io/badge/Scholar-100000?style=flat&logo=GoogleScholar&logoColor=white&color=0181FF'>
-  </a>
-  <a href="https://www.researchgate.net/profile/Mohammad-Soltanshahi" target="_blank">
-    <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat&logo=ResearchGate&logoColor=white">
-  </a>
-</p>
-
 ---
 
 ## 📊 Performance
