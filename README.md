@@ -1,6 +1,6 @@
 # Hybrid-Hierarchical Fashion Graph Attention Network for Compatibility-Oriented and Personalized Outfit Recommendation
 
-**Authors:** Sajjad Saed, Babak Teimourpour*
+**Authors:** Sajjad Saed, Babak Teimourpour* 
 **Affiliation:** Department of Information Technology Engineering, Faculty of Industrial and Systems Engineering, Tarbiat Modares University (TMU), Tehran, Iran  
 
 <p align="center">
