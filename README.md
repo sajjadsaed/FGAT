@@ -122,7 +122,7 @@ user_id,outfit_id;outfit_id;...
 
 Item data
 item_id,cate_id,pic_url,title
----
+```
 ---
 
 ## 📚Citation
