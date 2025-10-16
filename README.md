@@ -8,7 +8,8 @@
   <img src="Hybrid-Hierarchical Fashion Graph Attention Network.png" alt="Scheme of the Proposed FGAT Model" width="600"/>
 </p>
 
-This repository contains the implementation of **FGAT**, a Hybrid Hierarchical Fashion GAT model for Compatibility-Oriented and Personalized Outfit Recommendation proposed in our paper:  
+This repository contains the implementation of **FGAT**, a Hybrid Hierarchical Fashion GAT model for Compatibility-Oriented and Personalized Outfit Recommendation proposed in our paper:
+> Saed, S., & Teimourpour, B. (2025). Hybrid-Hierarchical Fashion Graph Attention Network for Compatibility-Oriented and Personalized Outfit Recommendation (No. arXiv:2508.11105). arXiv. https://doi.org/10.48550/arXiv.2508.11105
 > Saed et al. [*“An Efficient Multiple Convolutional Neural Network Model (MCNN-14) for Fashion Image Classification.”*](https://ieeexplore.ieee.org/abstract/document/10533341). ICWR2024
 
 ---
