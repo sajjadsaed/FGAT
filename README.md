@@ -15,7 +15,11 @@ This repository contains the implementation of **FGAT**, a Hybrid Hierarchical F
 ## 📌 Abstract
 The rapid expansion of the fashion industry and the growing variety of products have made it increasingly challenging for users to identify compatible items on e-commerce platforms. Effective fashion recommendation systems are therefore crucial for filtering irrelevant options and suggesting suitable ones. However, simultaneously addressing outfit compatibility and personalized recommendations remains a significant challenge, as these aspects are typically treated independently in existing studies, thereby overlooking the complex interactions between items and user preferences. This research introduces a new framework named FGAT, which leverages a hierarchical graph representation together with attention mechanisms to address this problem. The framework constructs a three-tier graph of users, outfits, and items, integrating visual and textual features to jointly model outfit compatibility and user preferences. By dynamically weighting node importance during representation propagation, the graph attention mechanism captures key interactions and produces precise embeddings for both user preferences and outfit compatibility. Evaluated on the POG dataset, FGAT outperforms strong baselines such as HFGN, achieving notable improvements in accuracy, precision, hit ratio (HR), recall, and NDCG. These results demonstrate that combining multimodal visual–textual features with a hierarchical graph structure and attention mechanisms significantly enhances the effectiveness and efficiency of personalized fashion recommendation systems.  
 
-> **✨ Key Contribution:** Our model achieved **0.4286 HR@10**,**0.1580 Recall@10**,**0.4424 Precision@10**,**0.1340 NDCG@10**,**89.56% accuracy** on the POG dataset, surpassing existing benchmarks.
+> **✨ Key Contribution:
+> **Proposing a novel hybrid-hierarchical graph attention framework**
+> **Effectively fusing multimodal features (images, descriptions, and interaction structures) to enhance representation learning in recommendation**
+> **Category co-occurrence guides dynamic weighting across item relationships**
+> ** Our model achieved **HR@10=0.4286** ,**Recall@10=0.1580** ,**Precision@10=0.4424** ,**NDCG@10=0.1340** ,**accuracy=89.56%** on the POG dataset, surpassing existing benchmarks.
 
 ---
 
