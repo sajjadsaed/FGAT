@@ -123,6 +123,7 @@ user_id,outfit_id;outfit_id;...
 Item data
 item_id,cate_id,pic_url,title
 ---
+---
 
 ## 📚Citation
 If you use the datasets or findings from our paper, please cite [our paper](https://ieeexplore.ieee.org/abstract/document/10533341) in your work:
