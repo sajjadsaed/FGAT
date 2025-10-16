@@ -101,15 +101,16 @@ The rapid expansion of the fashion industry and the growing variety of products 
 ---
 
 ## 🚀Features
-- Multiple CNN (MCNN-14) architecture
-- Optimized for **Fashion-MNIST**
-- Achieved **93.08% classification accuracy**
-- Balances accuracy with computational efficiency
-- Built with **TensorFlow / Keras**
-
+- Three-level user/outfit/item hierarchical graph
+- Multimodal item embeddings (ResNet-152 visual + BERT textual)
+- Category co-occurrence priors + attention-based propagation
+- Joint training for compatibility and personalized outfit recommendation
 ---
 
 ## 📂 Datasets
+
+The datasets of the paper POG:
+https://drive.google.com/drive/folders/1xFdx5xuNXHGsUVG2VIohFTXf9S7G5veq
 
 This project uses the **Fashion-MNIST** dataset, a widely-used benchmark dataset for clothing image classification.  
 
