@@ -40,6 +40,9 @@ The rapid expansion of the fashion industry and the growing variety of products 
   <a href="https://www.researchgate.net/profile/Sajjad-Saed" target="_blank">
     <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat&logo=ResearchGate&logoColor=white">
   </a>
+  <a href="https://orcid.org/0009-0001-0087-9268" target="_blank">
+    <img src="https://img.shields.io/badge/ORCID-0009--0001--0087--9268-A6CE39?style=flat&logo=orcid&logoColor=white">
+  </a>
     <a href="mailto:ssaed.89@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white">
   </a>
@@ -55,6 +58,9 @@ The rapid expansion of the fashion industry and the growing variety of products 
   </a>
   <a href="https://www.researchgate.net/profile/Babak-Teimourpour" target="_blank">
     <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat&logo=ResearchGate&logoColor=white">
+  </a>
+  <a href="https://orcid.org/0000-0002-9286-2286" target="_blank">
+    <img src="https://img.shields.io/badge/ORCID-0000--0002--9286--2286-A6CE39?style=flat&logo=orcid&logoColor=white">
   </a>
 </p>
 ---
