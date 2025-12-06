@@ -24,7 +24,7 @@ The rapid expansion of the fashion industry and the growing variety of products 
 >  
 > **Category co-occurrence guides dynamic weighting across item relationships**
 >  
-> ** Our model achieved **HR@10=0.4286** ,**Recall@10=0.1580** ,**Precision@10=0.4424** ,**NDCG@10=0.1340** ,**accuracy=89.56%** on the POG dataset, surpassing existing benchmarks.
+> **Our model achieved HR@10=0.4286 ,Recall@10=0.1580 ,Precision@10=0.4424 ,NDCG@10=0.1340 ,accuracy=89.56% on the POG dataset, surpassing existing benchmarks.**
 
 ---
 
