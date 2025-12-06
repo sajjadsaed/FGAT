@@ -133,7 +133,7 @@ item_id,cate_id,pic_url,title
 ---
 
 ## 📚Citation
-If you use the datasets or findings from our paper, please cite [our paper](https://ieeexplore.ieee.org/abstract/document/10533341) in your work:
+If you use the datasets or findings from our paper, please cite [our paper](https://doi.org/10.1016/j.mlwa.2025.100802) in your work:
 
 ```bibtex
 @article{SAED2026100802,
@@ -156,6 +156,4 @@ abstract = {The rapid expansion of the fashion industry and the growing variety 
 ## 📝 License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
-
-If you use this repository, please mention the original GitHub repository by linking to [MCNN-14-Fashion-Image-Classification](https://github.com/Kalashi-Saed-Collaborations/MCNN-14-Fashion-Image-Classification). This helps support the project and acknowledges the contributors.
 
