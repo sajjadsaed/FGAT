@@ -13,7 +13,7 @@ This repository contains the implementation of **FGAT**, a Hybrid Hierarchical F
 ---
 
 ## 📌 Abstract
-The rapid expansion of the fashion industry and the growing variety of products have made it increasingly challenging for users to identify compatible items on e-commerce platforms. Effective fashion recommendation systems are therefore crucial for filtering irrelevant options and suggesting suitable ones. However, simultaneously addressing outfit compatibility and personalized recommendations remains a significant challenge, as these aspects are typically treated independently in existing studies, thereby overlooking the complex interactions between items and user preferences. This research introduces a new framework named FGAT, which leverages a hierarchical graph representation together with attention mechanisms to address this problem. The framework constructs a three-tier graph of users, outfits, and items, integrating visual and textual features to jointly model outfit compatibility and user preferences. By dynamically weighting node importance during representation propagation, the graph attention mechanism captures key interactions and produces precise embeddings for both user preferences and outfit compatibility. Evaluated on the POG dataset, FGAT outperforms strong baselines such as HFGN, achieving notable improvements in accuracy, precision, hit ratio (HR), recall, and NDCG. These results demonstrate that combining multimodal visual–textual features with a hierarchical graph structure and attention mechanisms significantly enhances the effectiveness and efficiency of personalized fashion recommendation systems.  
+The rapid expansion of the fashion industry and the growing variety of products have made it increasingly challenging for users to identify compatible items on e-commerce platforms. Effective fashion recommendation systems are therefore crucial for filtering irrelevant options and suggesting suitable ones. However, simultaneously addressing outfit compatibility and personalized recommendations remains a significant challenge, as these aspects are typically treated independently in existing studies, thereby overlooking the complex interactions between items and user preferences. This research introduces a new framework named FGAT, which leverages a hierarchical graph representation together with attention mechanisms to address this problem. The framework constructs a three-tier graph of users, outfits, and items, integrating visual and textual features to jointly model outfit compatibility and user preferences. By dynamically weighting node importance during representation propagation, the graph attention mechanism captures key interactions and produces precise embeddings for both user preferences and outfit compatibility. Evaluated on the POG dataset, FGAT outperforms strong baselines such as HFGN, achieving notable improvements in accuracy, precision, hit ratio (HR), recall, and NDCG. These results demonstrate that combining multimodal visual–textual features with a hierarchical graph structure and attention mechanisms significantly enhances the effectiveness and efficiency of personalized fashion recommendation systems.
 
 > **✨ Key Contribution:
 >  
@@ -129,12 +129,18 @@ item_id,cate_id,pic_url,title
 If you use the datasets or findings from our paper, please cite [our paper](https://ieeexplore.ieee.org/abstract/document/10533341) in your work:
 
 ```bibtex
-@article{saed2025hybrid,
-  title={Hybrid-Hierarchical Fashion Graph Attention Network for Compatibility-Oriented and Personalized Outfit Recommendation},
-  author={Saed, Sajjad and Teimourpour, Babak},
-  journal={arXiv preprint arXiv:2508.11105},
-  year={2025},
- doi={10.48550/arXiv.2508.11105}
+@article{SAED2026100802,
+title = {Hybrid-hierarchical fashion graph attention network for compatibility-oriented and personalized outfit recommendation},
+journal = {Machine Learning with Applications},
+volume = {23},
+pages = {100802},
+year = {2026},
+issn = {2666-8270},
+doi = {https://doi.org/10.1016/j.mlwa.2025.100802},
+url = {https://www.sciencedirect.com/science/article/pii/S2666827025001859},
+author = {Sajjad Saed and Babak Teimourpour},
+keywords = {Graph neural networks, Graph attention networks, Graph representation learning, Multimodal learning, Personalized outfit recommendation, Outfit compatibility},
+abstract = {The rapid expansion of the fashion industry and the growing variety of products have made it increasingly challenging for users to identify compatible items on e-commerce platforms. Effective fashion recommendation systems are therefore crucial for filtering irrelevant options and suggesting suitable ones. However, simultaneously addressing outfit compatibility and personalized recommendations remains a significant challenge, as these aspects are typically treated independently in existing studies, thereby overlooking the complex interactions between items and user preferences. This research introduces a new framework named FGAT, which leverages a hierarchical graph representation together with attention mechanisms to address this problem. The framework constructs a three-tier graph of users, outfits, and items, integrating visual and textual features to jointly model outfit compatibility and user preferences. By dynamically weighting node importance during representation propagation, the graph attention mechanism captures key interactions and produces precise embeddings for both user preferences and outfit compatibility. Evaluated on the POG dataset, FGAT outperforms strong baselines such as HFGN, achieving notable improvements in accuracy, precision, hit ratio (HR), recall, and NDCG. These results demonstrate that combining multimodal visual–textual features with a hierarchical graph structure and attention mechanisms significantly enhances the effectiveness and efficiency of personalized fashion recommendation systems.}
 }
 ```
 
