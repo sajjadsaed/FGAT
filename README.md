@@ -9,8 +9,8 @@
 </p>
 
 This repository contains the implementation of **FGAT**, a Hybrid Hierarchical Fashion GAT model for Compatibility-Oriented and Personalized Outfit Recommendation proposed in our paper:
-> Saed, S., & Teimourpour, B. (2025). Hybrid-Hierarchical Fashion Graph Attention Network for Compatibility-Oriented and Personalized Outfit Recommendation.
-https://www.sciencedirect.com/science/article/pii/S2666827025001859?via%3Dihub
+> Saed, S., & Teimourpour, B. (2026). Hybrid-hierarchical fashion graph attention network for compatibility-oriented and personalized outfit recommendation. Machine Learning with Applications, 23, 100802. https://doi.org/10.1016/j.mlwa.2025.100802
+
 ---
 
 ## 📌 Abstract
